@@ -1,0 +1,49 @@
+
+html{
+    background-color: #BEF2E5;
+}
+
+.SpaceGrotesk {
+    font-family: "SpaceGrotesk";
+  }
+
+.sectionContainer {
+display: flex;
+justify-content: center;
+
+
+    }
+
+.section1 {
+    background-image: url('images/favicon3.png');
+    position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+    width: 400px;
+    border: #BEF2E5 solid 10px;
+}
+
+.textSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg{
+    height: 100vh;
+    width: 100vw;
+    }
+
+.rollers:hover{
+    color: whitesmoke;
+    cursor: text;
+
+}
